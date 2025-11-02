@@ -20,21 +20,23 @@ public class FormateadorMD implements Formateador{
     @Override
     public String formatear(List<String> datos)
     {
-        StringBuilder ret = escribirTitulo();
-        ret = escribirFecha(ret);
-        ret = escribirCuerpo(ret, datos);
-        ret = escribirTotal(ret, datos);
+        StringBuilder ret = this.escribirTitulo();
+        ret = this.escribirFecha(ret);
+        ret = this.escribirCuerpo(ret, datos);
+        ret = this.escribirTotal(ret, datos);
         return ret.toString();
     }
 
-    public static StringBuilder escribirTitulo()
+    @Override
+    public StringBuilder escribirTitulo()
     {
         StringBuilder ret = new StringBuilder();
         ret.append(TXT_TITULO).append(SALT_LINEA);
         return ret;
     }
 
-    public static StringBuilder escribirFecha(StringBuilder documento)
+    @Override
+    public StringBuilder escribirFecha(StringBuilder documento)
     {
         StringBuilder ret = documento;
         LocalDateTime fechaHoraActual = LocalDateTime.now();
@@ -47,7 +49,8 @@ public class FormateadorMD implements Formateador{
         return ret;
     }
 
-    public static StringBuilder escribirCuerpo(StringBuilder documento, List<String> datos)
+    @Override
+    public StringBuilder escribirCuerpo(StringBuilder documento, List<String> datos)
     {
         StringBuilder ret = documento;
         for(int i = 0; i < datos.size(); i++){         
@@ -68,7 +71,8 @@ public class FormateadorMD implements Formateador{
         return ret;
     }
 
-    public static StringBuilder escribirTotal(StringBuilder documento, List<String> datos)
+    @Override
+    public StringBuilder escribirTotal(StringBuilder documento, List<String> datos)
     {
         StringBuilder ret = documento;
 
