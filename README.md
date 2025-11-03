@@ -107,6 +107,10 @@ El proyecto sigue la línea de lo visto en clase. Se ha separado y paquetizado t
 
 ### Alberto:
 
+A nivel personal, reconozco que aún tengos aspectos que mejorar en programación, no por falta de conocimiento, sino por el tiempo limitado de práctica del que dispongo sumado a ciertas carencias producidas por la falta de profesor el curso pasado.
+
+En el ámbito grupal, destaco el talento de Carlos y la paciencia en su colaboración. Su capacidad y aportes me han permitido aprender y mejorar por lo que ha sido una buena experiencia compartir tiempo de trabajo para sacar el proyecto adelante.
+
 ### Carlos:
 
 Personalmente, ha sido gratificante el desarrollo de un proyecto más exigente de lo que estaba acostumbrado. Tras el primer año sin profesor de programación durante gran parte del curso, muchos de los conocimientos y prácticas habituales no nos fueron transmitidos. Con este proyecto creo que hemos avanzado notablemente y cubierto algunas de las carencias que pudiésemos tener.
